@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8" />
+    <title>Thesis</title>
+    <!-- ลิงก์ไฟล์ CSS แยก -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600&display=swap">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ส่วนหัวของเว็บไซต์ -->
+  <header>
+    <h1>Developing a Time Series Deep Learning Model
+        to Predict Shock in ICU Patients
+        at Srinagarind Hospital, Khon Kaen <br>
+        การพัฒนาแบบจำลองการเรียนรู้เชิงลึกแบบอนุกรมเวลาเพื่อทำนายภาวะช็อกในแผนกผู้ป่วยวิกฤติ 
+        โรงพยาบาลศรีนครินทร์ จังหวัดขอนแก่น
+    </h1>
+    <!-- <a href="#" class="back-button">Back to Home</a> -->
+  </header>
+
+  <section class="example-results">
+    <h2>Developers</h2>
+  </section>
+
+  <!-- ส่วนลิงก์/หัวข้อต่าง ๆ -->
+  <section class="cards">
+    <!-- Abstract -->
+    <div class="card-item">
+      <img src="./images/AjYa2.jpg" alt="Advisor Icon" class="circular-img"/>
+      <h3>Advisor</h3>
+      <p>
+        ดร.พิชญา วิรัชโชติเสถียร <br>
+        Dr. Pitchaya Wiratchotisatian
+      </p>
+    </div>
+
+    <!-- การประชุมวิชาการ -->
+    <!-- <a href="https://github.com/Tonry12" > -->
+    <div role="link" onclick= "window.location.href='https://github.com/Tonry12';" class="card-item">
+      <img src="./images/tonry_profile.jpg" alt="student1 Icon" />
+      <h3>Student</h3>
+      <p>
+        ธนบดี ภูชมศรี <br> 
+        Thanabodi Phuchomsi
+      </p>
+    </div>
+    <!-- </a> -->
+    
+    <!-- Flow-chart -->
+    <!-- <a href="https://github.com/puttipongyy" > -->
+      <div class="card-item" role="link" onclick= "window.location.href='https://github.com/puttipongyy';">
+      
+        <img src="./images/om_profile.jpg" alt="student2 Icon" />
+        <h3>student</h3>
+        <p>
+          พุทธิพงศ์ ยางนอก <br>
+          Puttipong Yangnork
+        </p>
+      
+      </div>
+    <!-- </a> -->
+  </section>
+
+  <section class="example-results">
+    <h2>Our Works</h2>
+  </section>
+  <section class="cards">
+    <!-- <a href="20.205.16.95" class="link-card"> -->
+    <a href="./files/Thesis.pdf" class="link-card" target="_blank">
+      <img src="./images/report dummy.png" alt="Report PDF">
+      <div class="card-content">
+        <h3>Report</h3>
+        <!-- <p>นี่คือคำอธิบายสั้น ๆ ของเนื้อหาที่อยู่ใน card นี้</p> -->
+      </div>
+    </a>
+    <a href="http://20.205.16.95:5006/" class="link-card">
+      <img src="./images/webapp dummy.png" alt="Example Image">
+      <div class="card-content">
+        <h3>PREDICTS
+          SHOCK RISK IN
+          ICU PATIENTS WebApp</h3>
+        <!-- <p>นี่คือคำอธิบายสั้น ๆ ของเนื้อหาที่อยู่ใน card นี้</p> -->
+      </div>
+    </a>
+  </section>
+  <!-- ส่วน Abstract -->
+  <section class="abstract-section">
+    <h2>Abstract</h2>
+    <p>
+        Shock is a life-threatening condition commonly encountered in intensive care units (ICUs), significantly contributing to global mortality rates.
+        Timely diagnosis is critical, as delays increase the risk of organ failure and death, particularly in critically ill patients. Mortality rates escalate 
+        with the severity of shock and each hour of delayed ICU admission raises the risk of death. Early prediction of shock is therefore crucial to enabling timely interventions 
+        and improving patient outcomes. This study investigates ICU patients at Srinagarind Hospital, Khon Kaen, Thailand, using secondary data from the Smart-ICU system. 
+        The dataset includes patient demographics, medical histories, laboratory results, vital signs, and fluid balance. The study focuses on patients aged 18 years or older, 
+        admitted between October 15, 2022, and June 30, 2024, with a minimum ICU stay of 24 hours. Shock was defined by at least one of the following criteria: mean arterial pressure &lt; 65 mmHg,
+        systolic blood pressure &lt; 90 mmHg, or a diastolic shock index > 2. To predict shock, advanced time-series deep learning techniques were utilized, including Convolutional Neural Networks (CNN), 
+        Long Short-Term Memory (LSTM) networks, and Transformer models. The CNN+LSTM hybrid model achieved the best performance, with an AUC-ROC of 0.89 and an AUC-PR of 0.92, outperforming standalone models. 
+        This performance underscores the hybrid model’s ability to integrate temporal and spatial features, significantly enhancing predictive accuracy. This study demonstrates the potential of using the CNN+LSTM 
+        hybrid model for predicting shock among ICU patients, which can be further developed into a real-time shock prediction system.
+    </p>
+  </section>
+  <div class="image-card">
+    <div class="card-content" style="text-align: center;">
+      <h2>Presentation</h2>
+    </div>
+    <div style="position: relative;
+      width: 100%;
+      height: 0;
+      padding-top: 56.25%;
+      padding-bottom: 0;
+      box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16);
+      margin: 1.6em auto 0.9em auto;  /* ตรงนี้ใช้ auto เพื่อจัดให้อยู่กลาง */
+      overflow: hidden;
+      border-radius: 8px;
+      will-change: transform;">
+    <iframe loading="lazy"
+      style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;"
+      src="https://www.canva.com/design/DAGqIVQX6d4/UQzd2pvrPnkPZS8uHM1EdQ/view?embed"
+      allowfullscreen="allowfullscreen" allow="fullscreen">
+    </iframe>
+    </div>
+  </div>
+    <a href="https://www.canva.com/design/DAGqIVQX6d4/UQzd2pvrPnkPZS8uHM1EdQ/view?utm_content=DAGqIVQX6d4&utm_campaign=designshare&utm_medium=embeds&utm_source=link"
+    target="_blank" rel="noopener">
+    </a>
+
+    <div class="image-card">
+      <div class="card-content" style="text-align: center;">
+        <h2>Web App Preview</h2>
+      </div>
+      <div style="position: relative;
+        width: 100%;
+        height: 0;
+        padding-top: 56.25%;
+        padding-bottom: 0;
+        box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16);
+        margin: 1.6em auto 0.9em auto;
+        overflow: hidden;
+        border-radius: 8px;
+        will-change: transform;">
+        <iframe loading="lazy"
+          style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;"
+          src="https://www.youtube.com/embed/J2bCu063hQM"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  
+  <!-- <div class="image-card">
+    <div class="card-content">
+      <h3>Objective</h3>
+    </div>
+    <img src="./images/goal.png" alt="ตัวอย่างรูปภาพ">
+  </div> -->
+  
+  <!-- <div class="image-card">
+    <div class="card-content">
+      <h3>Model structure</h3>
+    </div>
+    <img src="./images/shock_pa.png" alt="ตัวอย่างรูปภาพ">
+  </div> -->
+
+  <section class="example-results">
+    <div class="card-content">
+        <h1>Conference</h1>
+      </div>
+
+    <div class="image-card">
+      <!-- <div class="card-content">
+        <h3>Model structure</h3>
+      </div> -->
+      <img src="./images/ton_um.png" alt="ตัวอย่างรูปภาพ">
+    </div>
+
+    <div class="image-card">
+      <!-- <div class="card-content">
+        <h3>Model structure</h3>
+      </div> -->
+      <img src="./images/Tonry cert.jpg" alt="ตัวอย่างรูปภาพ">
+    </div>
+  </section>
+  <!-- ส่วนท้ายของเว็บไซต์ -->
+  <footer>
+    © 2025 Department of Destruction, Johmmarn Tawanss's Army.
+  </footer>
+
+</body>
+</html>
+
